@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zoom: 30MFF</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav id="nav">
+    <div class="logo" onclick="window.location.href='index.html#'">
+      <img src="https://img.icons8.com/color/48/000000/zoom.png" alt="Zoom logo" />
+    </div>
+
+    <div class="navList">
+      <ul>
+        <li><a href="#AboutUs">About Us</a></li>
+        <li><a href="#OurTeam">Our Team</a></li>
+        <li><a href="#ContactUs">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="VideoSection">
+      <div class="Video">
+        <iframe class="responsive-iframe" src="https://www.commlab.nyuadim.com/MangS22/Introducing_Zoom.mp4"></iframe>
+      </div>
+      <div class="sideinfo">
+        <div class="Videoheader">
+          <h3>Why Choose Zoom?</h3>
+        </div>
+        <ul class="bulletin">
+          <li>Explore how the Zoom platform seamlessly brings together remote and in-person teams, for work that goes
+            wherever you do.</li>
+          <li>Drive more meaningful connections at your next virtual event with live networking</li>
+          <li>Make Education and remote learning become a possibilites during tough times.</li>
+          <li>Allows you to stay connected through instant messaging</li>
+          <li>Co-annotate to share ideas and enjoy unmatched video anf audio quality</li>
+        </ul>
+      </div>
+    </div>
+    <section id="descriptionBlock">
+      <div class="descriptionH" id="AboutUs">
+        <h2>Description</h2>
+      </div>
+
+      <div class="descriptionT" >
+        <p>Zoom is video conferencing software for Windows, macOS, Linux, and mobile devices that run iOS or Android. It
+          supports one-on-one calls, as well as group meetings that can hold up to 100 users for free or 500 users with
+          an additional purchase.
+          It has now become a household name for work-from-home employees and students during this pandemic.
+          Along with its desktop and mobile apps, We offer solution for enterprise conference rooms, browser extensions,
+          online seminars, and a web client that allows meeting participants to attend meetings without having to
+          install the Zoom app. Zoom has attracted many users by having a robust free tier, which allows meetings of up
+          to 100 people without restricting any app features, instead limiting meetings for free accounts to 40 minutes.
+        </p>
+      </div>
+    </section>
+
+    <section id="team">
+      <div class="Teamheader" id="OurTeam">
+        <h2>Our Team</h2>
+      </div>
+      <div class="row">
+        <div class="column1">
+          <div class="card">
+            <img src="images/dev.jpg">
+            <div class="container">
+              <h2>Dev Kalavadiya</h2>
+              <p class="title">Software Engineer</p>
+              <p>dk3936@nyu.edu</p>
+              <p><button class="button"
+                  onclick=" window.open('https://www.linkedin.com/in/dev-k-a80561130/','_blank')">Contact</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column2">
+          <div class="card">
+            <img src="images/Shania.png">
+            <div class="container">
+              <h2>Shania Pharuthi</h2>
+              <p class="title">UX Designer</p>
+              <p>sp5866@nyu.edu</p>
+              <p><button class="button"
+                  onclick=" window.open('https://www.linkedin.com/in/shanaia-paruthi-60400817b/','_blank')">Contact</button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column3">
+          <div class="card">
+            <img src="images/mate.png">
+            <div class="container">
+              <h2>Máté Hekfusz</h2>
+              <p class="title">Web Developer</p>
+              <p>mh5179@nyu.edu</p>
+              <p><button class="button"
+                  onclick=" window.open('https://www.linkedin.com/in/m%C3%A1t%C3%A9-hekfusz/','_blank')">Contact</button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column4">
+          <div class="card">
+            <img src="images/bhav.jpeg">
+            <div class="container">
+              <h2>Bhavicka Mohta</h2>
+              <p class="title">Graphics Designer</p>
+              <p>bm3001@nyu.edu</p>
+              <p><button class="button"
+                  onclick=" window.open('https://www.facebook.com/bhavicka.mohta.9','_blank')">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="ContactUs">
+      <div class="container">
+        <form id="contact">
+          <h2>Contact Form</h2>
+          <h4>Contact us through this form.</h4>
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Topic of your Message" type="text" tabindex="4" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div class="footer-left">
+        <p class="footer-links">
+          <a href="#">Home</a> ·
+          <a href="#">About</a> ·
+          <a href="#">Our Team</a> ·
+          <a href="#">Contact</a>
+        </p>
+  
+        <p class="footerZoom">Zoom &copy; 2021</p>
+      </div>
+  
+      <div class="footer-center">
+  
+        <div>
+          <i class="Address"></i>
+          <p><span>New York University Abu Dhabu</span> Saadiyat Islandd, UAE</p>
+        </div>
+  
+        <div>
+          <i class="email"></i>
+          <p><a href="https://www.commlab.nyuadim.com/">Zoom30MFF@commlab.nyu.edu</a></p>
+        </div>
+  
+      </div>
+  
+      <div class="footer-right">
+  
+        <p class="footer-about">
+          <span>Connect with us</span> </p>
+  
+        <div class="rounded-social-buttons">
+          <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
