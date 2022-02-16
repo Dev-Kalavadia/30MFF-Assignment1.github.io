@@ -4,6 +4,8 @@ Zoom 30MFF Website
 
 Project Description 
 
+[Link to video]( https://dev-kalavadia.github.io/30MFF-Assignment1.github.io/)
+
 The project started with us shooting a 30 minute video during class and my group and I decided to make un ironic zoom promotional/advertisement. This one minute video brings out the features of the video conferencing app to sarcasm in real life scenarios that we are students face on a day-to-day basis due to online learning. Personally I wanted to use this irony and make a mock up zoom website with our video embedded. While I was promoting and highlighting all its features the video would be telling a different story if they user a clicked on it. I wanted to surprise the user and bring a smile on their face as they would be not expecting the mock video compared to the realistic and similar zoom website. Obviously due to copyright and trademark issues I was not making any kind of sales or business neither does it intend to have any other used for this website other than this project for the class. I also had to change the wire frame as redirecting users to the actual zoom site would not be a great idea.
 
 
